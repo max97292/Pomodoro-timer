@@ -39,6 +39,7 @@ export default function App() {
     clearInterval(intervalRef.current);
     intervalRef.current = null;
     setTitle('Ready to go another round?');
+    setIsRunning(false);
     setTimeLeft(25 * 60);
   }
 
